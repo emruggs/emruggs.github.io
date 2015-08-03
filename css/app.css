@@ -48,6 +48,11 @@ h3 {
     -ms-transition: all ease 0.3s;
 }
 
+#about-panel {
+    display: none;
+    color: #FFF;
+}
+
 .social {
 	margin: 0;
 	padding: 0;
