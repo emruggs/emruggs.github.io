@@ -1,15 +1,40 @@
 
+@media screen and (min-width: 1024px) {
+    #header {
+        background-color: #444D51;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        position: fixed;
+    }
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+    .container {
+        display: flex;
+    }
+}
+
 * {
     font-family: 'Oswald', sans-serif;
 
 }
 
+.container {
+    display: block;
+}
+
 #header {
     background-color: #444D51;
-    left: 0;
+    /* left: 0;
     top: 0;
     bottom: 0;
-    position: fixed;
+    position: fixed; */
+}
+
+#content {
+    background-color: #444D51;
 }
 
 h1 {
@@ -17,6 +42,10 @@ h1 {
     font-size: 72px;
     color: #CEAA4A;
 
+}
+
+h2 {
+    color: #FFF;
 }
 
 h3 {
