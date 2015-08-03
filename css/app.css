@@ -1,19 +1,27 @@
+
 * {
     font-family: 'Oswald', sans-serif;
+
+}
+
+#header {
     background-color: #444D51;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
 }
 
 h1 {
     font-family: 'Abril Fatface', cursive;
     font-size: 72px;
     color: #CEAA4A;
-    margin-top: 0;
+
 }
 
 h3 {
     color: #FFF;
-    margin-bottom: 0;
-    padding-left: 8px;
+
 }
 
 #navmenu ul li {
